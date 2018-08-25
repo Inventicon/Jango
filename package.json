@@ -1,0 +1,27 @@
+{
+  "name": "jango",
+  "version": "0.1.0-beta",
+  "description": "TypeScript Console Application Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev --",
+    "dev": "node config/scripts/build.dev",
+    "deploy": "node config/scripts/build.prod"
+  },
+  "author": "Arbiter",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^10.9.2"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "cross-env": "^5.2.0",
+    "fork-ts-checker-webpack-plugin": "^0.4.9",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "pkg": "^4.3.4",
+    "ts-loader": "^4.5.0",
+    "typescript": "^3.0.1",
+    "webpack": "^4.17.1",
+    "webpack-merge": "^4.1.4"
+  }
+}
